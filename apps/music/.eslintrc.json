@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "ng-yandex-mf",
+            "prefix": "ya-music",
             "style": "kebab-case"
           }
         ]

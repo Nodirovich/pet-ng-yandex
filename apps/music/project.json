@@ -2,7 +2,7 @@
   "projectType": "application",
   "root": "apps/music",
   "sourceRoot": "apps/music/src",
-  "prefix": "ng-yandex-mf",
+  "prefix": "ya-music",
   "targets": {
     "build": {
       "executor": "@nrwl/angular:webpack-browser",

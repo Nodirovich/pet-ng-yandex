@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #121212;
+  color: hsla(0, 0%, 100%, .5);
+}
+
+.wrap {
+  min-width: 840px;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: auto;
+  background-color: #181818;
+}
