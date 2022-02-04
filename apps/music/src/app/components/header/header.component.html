@@ -1,0 +1,21 @@
+<header class="header">
+  <div class="header__left">
+    <div class="header__logo">
+      <a class="header__logo-ya" href="https://yandex.ru" target="_blank"></a>
+      <a class="header__logo-sub" routerLink="/"></a>
+    </div>
+  </div>
+  <div class="header__controlls">
+    <nav class="header__nav">
+      <a
+        class="header__nav-item"
+        routerLinkActive="active"
+        *ngFor="let item of navs"
+        [routerLink]="item.link"
+      >
+        {{item.title}}
+      </a>
+    </nav>
+  </div>
+  <div class="header__right"></div>
+</header>
