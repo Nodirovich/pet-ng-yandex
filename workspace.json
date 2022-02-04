@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "music": "apps/music",
+    "music-e2e": "apps/music-e2e"
+  }
 }
