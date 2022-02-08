@@ -1,0 +1,12 @@
+.home {
+  padding: 30px 30px 60px;
+  &__header {
+    &-title {
+      margin: 35px 0 25px;
+      font-size: 45px;
+      line-height: 45px;
+      font-weight: 700;
+      color: #f4f4f4;
+    }
+  }
+}

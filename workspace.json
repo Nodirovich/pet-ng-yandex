@@ -1,7 +1,10 @@
 {
   "version": 2,
   "projects": {
+    "core": "libs/core",
     "music": "apps/music",
-    "music-e2e": "apps/music-e2e"
+    "music-e2e": "apps/music-e2e",
+    "shared-store": "libs/shared/store",
+    "shared-ui": "libs/shared/ui"
   }
 }

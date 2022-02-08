@@ -1,0 +1,14 @@
+<div class="home">
+  <div class="home__header">
+    <h1 class="home__header-title">
+      Главное
+    </h1>
+
+    <!-- <nav class="home__header-tabs">
+      <a class="tab" *ngFor="let tab of tabs" [routerLink]="tab.link" routerLinkActive="active">{{tab.title}}</a>
+    </nav> -->
+    <ng-yandex-mf-tabs [tabs]="tabs"></ng-yandex-mf-tabs>
+  </div>
+  <video src="https://music.yandex.ru/blocks/audio-animation/i/fallback-black.mp4" autoplay muted loop></video>
+  <router-outlet></router-outlet>
+</div>

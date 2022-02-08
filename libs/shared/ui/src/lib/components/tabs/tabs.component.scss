@@ -1,0 +1,22 @@
+.tabs {
+  border-bottom: 1px solid hsla(0, 0%, 100%, .05);
+  .tab {
+    display: inline-block;
+    margin-right: 40px;
+    outline: none;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    height: 32px;
+    font-weight: 700;
+    line-height: 29px;
+    position: relative;
+    bottom: -1px;
+    color: #777;
+    border-bottom: 3px solid transparent;
+
+    &.active {
+      border-color: #fc0;
+      color: hsla(0, 0%, 100%, .85);
+    }
+  }
+}

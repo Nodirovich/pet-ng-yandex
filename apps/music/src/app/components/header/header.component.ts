@@ -10,7 +10,7 @@ export interface INav {
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
   navs: INav[];
   constructor() {
     this.navs = [
@@ -35,8 +35,5 @@ export class HeaderComponent implements OnInit {
         link: '/playlists',
       },
     ];
-  }
-  ngOnInit(): void {
-    console.log('header');
   }
 }

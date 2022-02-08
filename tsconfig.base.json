@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ng-yandex-mf/core": ["libs/core/src/index.ts"],
+      "@ng-yandex-mf/shared/store": ["libs/shared/store/src/index.ts"],
+      "@ng-yandex-mf/shared/ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
