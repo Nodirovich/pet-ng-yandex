@@ -1,8 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   background-color: #121212;
   color: hsla(0, 0%, 100%, .5);
+  font: 13px 'Montserrat',
+  Arial,
+  sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .wrap {
